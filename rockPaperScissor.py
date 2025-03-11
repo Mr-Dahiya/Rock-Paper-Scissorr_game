@@ -5,7 +5,6 @@ print("           Type r for rock, p for paper and s for scissors")
 print("             First to 5 wins, wins the game. Have fun!!!")
 
 import random
-import sys
 
 computer = random.choice([1, 2, 3])
 
@@ -61,4 +60,8 @@ while(playerCount<5 and compCount<5):
             compCount = compWon(playerCount, compCount)
         else:
             print("Something went wrong")
-print("Thankyou for playing!!")
+print()
+if(playerCount > compCount):
+    print("CONGRATULATIONS YOU WON!! :) ")
+else:
+    print("Better luck next time. :(")
