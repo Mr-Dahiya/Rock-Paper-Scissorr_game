@@ -6,8 +6,6 @@ print("             First to 5 wins, wins the game. Have fun!!!")
 
 import random
 
-computer = random.choice([1, 2, 3])
-
 playerDict = {
     "r" : 1,
     "p" : 2,
